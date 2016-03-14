@@ -1,6 +1,6 @@
 Functional Testing:
 ~~~~~~~~~~~~~~~~~~~
-Tests need to be done to check for boundary conditions, list of length 1 and MAX_LEN.
+Tests need to be done to check for boundary conditions (INT_MIN, INT_MAX), list of length 1 and MAX_LEN (say 8k).
 Search should be done for items which are at the beginning, middle and end of list.
 Test cases are needed for values which are equal and not equal.
 Test cases should cover -ve values too.
