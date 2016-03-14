@@ -125,7 +125,9 @@ int main(int argc, char *argv[])
     
     res = Search(a, count, ascending, key, GreaterThan, &idx);
     printf(">  %d : %s idx=%d\n", key, SearchResultStr[res], idx);
-    
-	return 0;
+   
+    free(a);
+ 
+    return 0;
 }
 
